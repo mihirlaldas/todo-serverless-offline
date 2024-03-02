@@ -11,6 +11,10 @@ authorName: 'Serverless, inc.'
 authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4'
 -->
 
+## Watch api demo
+
+[![Demo serverless offline crud api](https://i9.ytimg.com/vi_webp/bKeYJk3UA2g/mq2.webp?sqp=CLD3iq8G-oaymwEmCMACELQB8quKqQMa8AEB-AGGCIAC0AWKAgwIABABGBMgTCh_MA8=&rs=AOn4CLD0QV7-Ap130ryyLCwnyl-5pRs_Ig)](https://www.youtube.com/watch?v=bKeYJk3UA2g)
+
 ## Setup
 
 ```bash
