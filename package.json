@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.523.0",
+    "@aws-sdk/lib-dynamodb": "^3.523.0",
+    "@types/aws-lambda": "^8.10.134",
+    "@types/uuid": "^9.0.8",
+    "esbuild": "^0.14.25",
+    "serverless-esbuild": "^1.25.0",
+    "serverless-offline": "^13.3.3"
+  },
+  "name": "todo",
+  "scripts": {
+    "start": "docker-compose up -d && serverless offline start",
+    "db:migrate": "docker-compose up -d && serverless dynamodb migrate"
+  },
+  "dependencies": {
+    "serverless-dynamodb": "^0.2.50",
+    "uuid": "^9.0.1"
+  }
+}
